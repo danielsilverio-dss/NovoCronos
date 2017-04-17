@@ -1,0 +1,114 @@
+html, body{
+	height: 90%;
+}
+
+main{
+	height: 96%;
+}
+
+body{
+	margin: 0;
+	background-color: rgb(100,80,80);
+	color: rgb(230,210,210);
+	font-family: sans-serif;
+}
+
+header{
+	background-color: rgb(130,110,110);
+	color: rgb(230,220,220);
+	font-size: 32px;
+	padding: 25px;
+	padding-bottom: 0px;
+}
+
+nav{
+	font-size: 20px;
+	
+}
+
+nav li{
+	padding: 10px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+nav li:hover{
+	background-color: rgb(170,150,150);
+	padding: 10px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+
+#capitulos{
+	margin: 10px;
+	padding: 10px;
+	float: left;
+	width: 20%;
+
+	height: 100%;
+	overflow-y: scroll;
+}
+
+#texto{
+	margin: 10px;
+	padding: 10px;
+	float: left;
+	width: 44%;
+	text-align: justify;
+
+	height: 100%;
+	overflow-y: scroll;
+}
+
+#eventos{
+	margin: 10px;
+	float: left;
+	width: 25%;
+
+	height: 100%;
+	overflow-y: scroll;
+}
+
+
+/*****			PARA ESCONDER ELEMENTOS MANTENDO O ESPAÇO
+#capitulos{
+	visibility: hidden;
+}
+*/
+
+#capitulos a{
+	text-decoration: none;
+	color: rgb(230,220,220);
+}
+
+#capitulos p:hover{
+	background-color: rgb(130,110,110);
+	border-radius: 5px;
+}
+
+#eventos div{
+	background-color: rgb(130,110,110);
+	color: rgb(230,220,220);
+	margin: 5px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+}
+
+
+/****	SCROLLBAR ****/
+
+::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}

@@ -1,0 +1,27 @@
+sobre o novo sistema Cronos:
+
+Layout
+
+	Esconder periféricos:
+		opção 1 - botão de esconder mandendo o espaço, deixando o texto no lugar
+		opção 2 - botão de esconder o perifério liberando o espaço para o texto crescer
+
+	Personalizar cores
+
+
+
+Estrutura
+
+	Tela principal:
+		Editar e salvar as alterações no capitulo (pensar numa forma de salvar automaticamente?)
+		Criar eventos relativos ao capitulo (possivelmente selecionando uma linha ou trecho de texto no qual ele acontece)
+		Exibir lista de capitulos (talvez colocar um botao "adicionar capitulo" na mesma tela, sem precisar criar outra)
+		Exibir lista de eventos referentes ao capitulo
+
+	Telas para:
+		criar personagem (e, provavelmente, ao mesmo tempo listar)
+		criar capitulo (podendo fazer o upload de um arquivo existente ou criar um capitulo em branco)
+		exibir todos eventos (com filtro de: eventos relacionados a 1/n personagens e eventos pertencentes a tal capitulo) + criar eventos cujos capitulos ainda não foram criados
+		gerar arquivo de texto por capitulo ou com todos os capitulos (ou mesmo selecionando apenas alguns capitulos ex: do 1 ao 15)
+
+	Pensar em tornar possivel exportar projeto de livro para aumentar segurança?
